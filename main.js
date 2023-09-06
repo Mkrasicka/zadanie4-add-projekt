@@ -7,8 +7,6 @@ const toDoList = [];
 const addTask = function(e) {
   e.preventDefault();
 
-
-
   const input = form.querySelector('input');
   const li = document.createElement("li");
   li.className = "task";
